@@ -1,4 +1,4 @@
-# Laravel 10 提供一種非常簡單的方法來通過編號和 IP 位址禁止任何 Eloquent 模型
+# Laravel 11 提供一種非常簡單的方法來通過編號和 IP 位址禁止任何 Eloquent 模型
 
 引入 mchev 的 banhammer 套件來擴增提供一種非常簡單的方法來通過編號和 IP 位址禁止任何 Eloquent 模型，被禁止的 Eloquent 模型可以有一個到期日期，並使用排程自動取消禁止。
 
@@ -27,8 +27,8 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/WItIFIn.png)
+![](https://i.imgur.com/30yVL9W.png)
 > 透過限制登入的 IP 位址禁止存取
 
-![](https://i.imgur.com/v97fPAb.png)
+![](https://i.imgur.com/WVYFHoi.png)
 > 解除限制登入的 IP 位址即可存取
